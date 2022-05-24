@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-registry
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    client.fetch-registry: false
+  server:
+    renewal-percent-threshold: 0.5
